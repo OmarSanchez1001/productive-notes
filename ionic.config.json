@@ -1,0 +1,8 @@
+{
+  "name": "Productive Notes",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "bcb98219"
+}
