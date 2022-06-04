@@ -8,14 +8,13 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
   providers: [FormBuilder]
 })
 export class RegisterComponent implements OnInit {
+  navCtrl: any;
 
   constructor(
     
     public registerBuilder: FormBuilder
   ) { 
   }
-  
-
   form: FormGroup;
   isSubmitted = false;
 
